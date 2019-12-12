@@ -1,6 +1,6 @@
 ---
 - name: deployment of package in remote server 
-  hosts: web
+  hosts: node
   become: yes
 
   tasks:
